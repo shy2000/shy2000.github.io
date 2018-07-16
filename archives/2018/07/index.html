@@ -77,7 +77,7 @@
 
     <!-- Import CSS -->
     
-        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?zyjbk7Lp3Mcw9K/dNCXPmA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?QJq84tX6btK1C/8cNw370w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?iVAoLvutMGy1kqAM2SgJUA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
@@ -162,7 +162,12 @@
 
     <style>
       body{
-        background-image: url(/img/bg.png);
+        background-color: ;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
       }
     </style>
 
@@ -257,7 +262,32 @@
 
     <!-- Custom Head -->
     
+    <!--jQuery--> 
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<!--Query.backstretch-->  
+<script src="https://cdn.bootcss.com/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>  
+<!--Backstretch-->  
+ <script>
+$(function () {
+            $.backstretch([
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg01.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg02.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg03.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg04.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg05.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg06.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg07.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg08.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg09.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg10.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg11.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg12.jpg",
+		    "https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg13.jpg"
 
+            ], { duration: 9000, fade: 1000,animateFirst: !1 });
+        });
+</script>
+<!--Backstretch-->  
 </head>
 
 
@@ -302,62 +332,6 @@
     
 
         <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/07/15/bgtest/">bgtest</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/07/15/bgtest/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="shy's avatar">
-            </div>
-            <div>
-                <strong>shy</strong>
-                <span>7月 15, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
         <p class="article-headline-p"><a href="/2018/07/13/Test/">Test</a></p>
     </div>
 
@@ -377,7 +351,7 @@
         <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
             <!-- Author Avatar -->
             <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="shy's avatar">
+                <img src="/img/avatar.jpg" width="44px" height="44px" alt="shy's avatar">
             </div>
             <div>
                 <strong>shy</strong>
@@ -433,7 +407,7 @@
         <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
             <!-- Author Avatar -->
             <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="shy's avatar">
+                <img src="/img/avatar.jpg" width="44px" height="44px" alt="shy's avatar">
             </div>
             <div>
                 <strong>shy</strong>
@@ -467,10 +441,10 @@
 
     var locatePost = $('.locate-thumbnail-symbol').next();
     for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 2 + 1);
+        randomNum = Math.floor(Math.random() * 12 + 1);
 
         locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', 'https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg0' + randomNum + '.png');
+        locatePost.children('.post_thumbnail-random').attr('data-original', 'https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
 
         locatePost = locatePost.next();
@@ -489,7 +463,7 @@
 <aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
     <div id="sidebar-main">
         <!-- Sidebar Header -->
-        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.jpg);">
     <!-- Top bar -->
     <div class="top-bar"></div>
 
@@ -502,11 +476,11 @@
         </span>
     </button>
 
-    <!-- Sidebar Avatar -->
+    <!-- Sidebar Avatar
     <div class="sidebar-image">
-        <img src="/img/avatar.png" alt="shy's avatar">
+        <img src="/img/avatar.jpg" alt="shy's avatar">
     </div>
-
+ 	-->
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
         1537871745@qq.com
@@ -558,7 +532,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/07/">七月 2018<span class="sidebar_archives-count">3</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/07/">七月 2018<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
@@ -590,7 +564,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">3</span>
+                <span class="sidebar-badge">2</span>
             </a>
         </li>
         
