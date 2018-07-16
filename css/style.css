@@ -512,6 +512,7 @@ a {
     padding-top: 165px;
     margin: 0 auto;
     width: 100%;
+	background-color: hsla(0,0%,100%,0.42) 
 }
 @media screen and (max-width: 480px) {
     #scheme-Paradox .material-layout .material-layout__content {
@@ -846,7 +847,7 @@ a {
     margin-top: 5pc;
     padding: 40px;
     height: 120px;
-    background-color: #fff;
+    background-color: rgba(255,242,242,0.22);
     align-items: center
 }
 @media screen and (max-width: 840px) {
