@@ -765,7 +765,7 @@ input.mdl-button[type="submit"] {
 }
 
 .mdl-card__supporting-text {
-  color: rgba(0, 0, 0, .54);
+  color: rgba(0,0,0,0.00);
   font-size: 13px;
   line-height: 18px;
   overflow: hidden;

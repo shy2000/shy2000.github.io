@@ -366,10 +366,10 @@ $(function () {
     
 	
     <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
-        <a href="#" target="_blank">
-            <img src="/img/logo.jpg" alt="logo" />
-        </a>
+    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600" style="background-image:url(/img/logo.jpg)">
+       
+      <!-- <a href="#" target="_blank"><img src="/img/logo.jpg" alt="logo" /></a>-->
+        
     </div>
 
     <!-- Infomation -->
@@ -570,10 +570,10 @@ $(function () {
 
     var locatePost = $('.locate-thumbnail-symbol').next();
     for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 12 + 1);
+        randomNum = Math.floor(Math.random() * 9 + 1);
 
         locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', 'https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg' + randomNum + '.png');
+        locatePost.children('.post_thumbnail-random').attr('data-original', 'https://source-1257112812.cos.ap-beijing.myqcloud.com/bgim/bg0' + randomNum + '.jpg');
     $('.post_thumbnail-random').addClass('lazy');
 
         locatePost = locatePost.next();
